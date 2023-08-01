@@ -1,20 +1,129 @@
-.main{
+/* .main{
  text-align: center;
 }
 .itemBox{
     text-align: center;
-    padding-left:25%;
+    padding-left:33%;
     border:1px solid black;
     overflow-x: hidden;
     
   }
   
   .items{
-    width:300px;
-    height:100px;
+    width:33%;
+    height:10%;
     border-radius:  0px 30px 0px 30px;
     background:linear-gradient(45deg, rgb(148, 75, 251), rgb(28, 2, 28));
     padding: 20px;
     margin:10px;
     color: white;
   }
+  .second{
+    align-items: center;
+  } */
+
+
+  
+@media (max-width: 767px) {
+  .main{
+    text-align: center;
+   }
+   .itemBox{
+       text-align: center;
+       padding:3%;
+       border:1px solid black;
+       overflow-x: hidden;
+       
+     }
+     
+     .items{
+      
+       border-radius:  0px 30px 0px 30px;
+       background:linear-gradient(45deg, rgb(148, 75, 251), rgb(28, 2, 28));
+       padding: 20px;
+       margin:10px;
+       color: white;
+     }
+     
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main{
+    text-align: center;
+   }
+   .itemBox{
+       text-align: center;
+       padding-left:10%;
+       padding-right:10%;
+       border:1px solid black;
+       overflow-x: hidden;
+       
+     }
+     
+     .items{
+       
+       border-radius:  0px 30px 0px 30px;
+       background:linear-gradient(45deg, rgb(148, 75, 251), rgb(28, 2, 28));
+       padding: 20px;
+       margin:10px;
+       color: white;
+     }
+     .second{
+       align-items: center;
+     }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main{
+    text-align: center;
+   }
+   .itemBox{
+       text-align: center;
+       padding-left:33%;
+       border:1px solid black;
+       overflow-x: hidden;
+       
+     }
+     
+     .items{
+       width:33%;
+       height:10%;
+       border-radius:  0px 30px 0px 30px;
+       background:linear-gradient(45deg, rgb(148, 75, 251), rgb(28, 2, 28));
+       padding: 20px;
+       margin:10px;
+       color: white;
+     }
+     .second{
+       align-items: center;
+     }
+}
+
+
+@media (min-width: 1200px) {
+  .main{
+    text-align: center;
+   }
+   .itemBox{
+       text-align: center;
+       padding-left:33%;
+       border:1px solid black;
+       overflow-x: hidden;
+       
+     }
+     
+     .items{
+       width:33%;
+       height:10%;
+       border-radius:  0px 30px 0px 30px;
+       background:linear-gradient(45deg, rgb(148, 75, 251), rgb(28, 2, 28));
+       padding: 20px;
+       margin:10px;
+       color: white;
+     }
+     .second{
+       align-items: center;
+     }
+}

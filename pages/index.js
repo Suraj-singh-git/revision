@@ -43,7 +43,7 @@ function Section() {
   ];
 
   return (
-    <div>
+    <div className='second'>
       <h2>Calorie Read Only</h2>
       <div className="itemBox">
         {foodList.map((food, index) => (
